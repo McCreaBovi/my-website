@@ -145,8 +145,21 @@
             </p>
           </div>
 
-          <a href="./assets/png/McCrea_Bovi_Resume2023.png" class="btn btn--med btn--theme dynamicBgClr" type="button"
-            target="_blank">Resume</a>
+         <!-- <a href="./assets/png/McCrea_Bovi_Resume2023.png" class="btn btn--med btn--theme dynamicBgClr" type="button"
+            target="_blank">Resume</a> -->
+
+        <a href="./assets/png/McCrea_Bovi_Resume2023.png" class="btn btn--med btn--theme dynamicBgClr" id="openImages" type="button" target="_blank">Resume</a>
+
+             <script>
+        // Function to open two JPEG files
+        function openImages() {
+            window.open('./assets/jpeg/McCrea_Bovi_Resume2023-1.jpg');
+            window.open('./assets/jpeg/McCrea_Bovi_Resume2023-2.jpg');
+        }
+
+        // Add an event listener to the button
+        document.getElementById('openImages').addEventListener('click', openImages);
+    </script>
 
         </div>
         <div class="about__content-skills">
